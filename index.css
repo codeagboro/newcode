@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    /* width: 100%; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#input{
+    margin:20% 0 0 40%;
+    padding: 0.5%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    outline: none;
+    border: none;
+
+}
+#search{
+    padding: 0.5%;
+    outline: none;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: -1%;
+    width: 10%;
+    background-color: rgb(216, 216, 61);
+    font-weight: bold;
+
+}
+#display {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .employee-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .employee-table th, .employee-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .employee-table th {
+    background-color: #f2f2f2;
+  }
